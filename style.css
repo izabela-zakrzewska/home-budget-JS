@@ -1,0 +1,59 @@
+body {
+  background-color: #c8c6fa;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  margin-left: 80px;
+}
+
+h2 {
+  margin-left: 225px;
+  margin-bottom: 20px;
+}
+.item {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#displayTotalIncome,
+#displayTotalExpenses {
+  font-size: 20px;
+  margin-left: 10px;
+  background-color: #66cdaa;
+  border-radius: 4px;
+  width: 513px;
+  padding: 5px;
+  text-align: center;
+}
+
+#totalResult {
+  font-size: 20px;
+  background-color: #ffa500;
+  border-radius: 4px;
+  width: 510px;
+  padding: 5px;
+  margin: 30px auto;
+  text-align: center;
+}
