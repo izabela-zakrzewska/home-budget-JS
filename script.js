@@ -58,7 +58,7 @@ let displayIncome = () => {
     buttonConfirm.style.width = "60px";
     buttonConfirm.style.padding = "5px";
     buttonConfirm.style.fontSize = "16px";
-    /// dodawanie div'a
+
     let inputDiv = document.querySelector(".inputContainer");
     inputDiv.style.marginBottom = "20px";
     inputDiv.appendChild(inputIncome);
